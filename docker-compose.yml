@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+      - maildev
+    volumes:
+      - ./wwwroot/uploads:/app/wwwroot/uploads
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: appdb
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  maildev:
+    image: maildev/maildev
+    ports:
+      - "1080:1080"
+      - "1025:1025"
+
+volumes:
+  db-data:
