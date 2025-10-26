@@ -1,0 +1,39 @@
+@page "/"
+
+<h2>Товары</h2>
+
+<div class="products-grid">
+    @foreach (var product in Products)
+    {
+        <div class="product-card" style="border-color:@product.ColorHex">
+            <img src="@product.ImageUrl" alt="@product.Name" />
+            <h3>@product.Name</h3>
+            <p>@product.Description</p>
+            <p>Цена: @product.Price</p>
+            <button @onclick="() => AddToCart(product)">В корзину</button>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Product> Products = new List<Product>
+    {
+        new Product { Name="Товар 1", Description="Описание товара 1", Price=100, ImageUrl="https://via.placeholder.com/150", ColorHex="#4f46e5" },
+        new Product { Name="Товар 2", Description="Описание товара 2", Price=200, ImageUrl="https://via.placeholder.com/150", ColorHex="#f59e0b" },
+        new Product { Name="Товар 3", Description="Описание товара 3", Price=300, ImageUrl="https://via.placeholder.com/150", ColorHex="#10b981" },
+    };
+
+    private void AddToCart(Product product)
+    {
+        Console.WriteLine($"{product.Name} добавлен в корзину!");
+    }
+
+    private class Product
+    {
+        public string Name { get; set; } = "";
+        public string Description { get; set; } = "";
+        public decimal Price { get; set; }
+        public string ImageUrl { get; set; } = "";
+        public string ColorHex { get; set; } = "#000000";
+    }
+}

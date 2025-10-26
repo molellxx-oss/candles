@@ -1,0 +1,9 @@
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.csproj.AssemblyReference.cache
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.AssemblyInfoInputs.cache
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.AssemblyInfo.cs
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.csproj.CoreCompileInputs.cache
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.RazorAssemblyInfo.cache
+C:\Users\mole1\OneDrive\Рабочий стол\Minimarketplace\src\Minimarketplace.Web\obj\Debug\net8.0\Minimarketplace.Web.RazorAssemblyInfo.cs
